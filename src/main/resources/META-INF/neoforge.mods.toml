@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="apoth_talisman_bag"
-version="1.21.1-1.0.1"
+version="1.21.1-1.0.2"
 displayName="Apotheosis Amulet Bag"
 authors="NOSFERATU"
 description='''
@@ -29,5 +29,12 @@ side="BOTH"
 modId="apotheosis"
 type="required"
 versionRange="[8,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.apoth_talisman_bag]]
+modId="curios"
+type="optional"
+versionRange="[9,)"
 ordering="AFTER"
 side="BOTH"
