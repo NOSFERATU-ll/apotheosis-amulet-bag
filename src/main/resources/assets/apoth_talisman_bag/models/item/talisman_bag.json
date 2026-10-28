@@ -1,4 +1,24 @@
 {
+  "overrides": [
+    {
+      "model": "apoth_talisman_bag:item/talisman_bag_1",
+      "predicate": {
+        "apoth_talisman_bag:charm_count": 1
+      }
+    },
+    {
+      "model": "apoth_talisman_bag:item/talisman_bag_2",
+      "predicate": {
+        "apoth_talisman_bag:charm_count": 2
+      }
+    },
+    {
+      "model": "apoth_talisman_bag:item/talisman_bag_3",
+      "predicate": {
+        "apoth_talisman_bag:charm_count": 3
+      }
+    }
+  ],
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "apoth_talisman_bag:item/talisman_bag"

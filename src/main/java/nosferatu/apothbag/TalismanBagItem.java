@@ -119,6 +119,10 @@ public class TalismanBagItem extends Item {
         return Math.min(slots, MAX_SLOTS);
     }
 
+    public static int getVisibleCharmCount(ItemStack stack) {
+        return Math.min(3, getBagData(stack).getList(TAG_ITEMS, Tag.TAG_COMPOUND).size());
+    }
+
     public static void setUnlockedSlots(ItemStack stack, int slots) {
         CompoundTag tag = getBagData(stack);
         tag.putInt(TAG_UNLOCKED, Math.max(0, Math.min(slots, MAX_SLOTS)));

@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "layer0": "apoth_talisman_bag:item/talisman_bag_1"
+  },
+  "parent": "minecraft:item/generated"
+}

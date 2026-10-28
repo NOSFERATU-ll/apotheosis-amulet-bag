@@ -8,7 +8,7 @@ plugins {
 version = mod_version
 group = mod_group_id
 
-base { archivesName = mod_id }
+base { archivesName = 'apotheosis_amulet_bag' }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 

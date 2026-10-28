@@ -9,6 +9,7 @@ The bag is designed to keep several Apotheosis charms in one item while still al
 
 - Adds an **Amulet Bag** item
 - Supports up to **5 amulet slots**
+- Bag appearance changes with its contents: empty, one charm, two charms, or three visible charms. Bags containing 3–5 charms use the full appearance.
 - Slots are unlocked with player experience levels:
   - Slot 1: 100 levels
   - Slot 2: 200 levels
